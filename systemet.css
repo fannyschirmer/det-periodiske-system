@@ -1,0 +1,101 @@
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 10px;
+}
+
+.rad-under-en{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  width: 700px;
+}
+
+.span-16{
+  grid-column: span 16;
+}
+
+.span-10{
+  grid-column: span 10;
+}
+
+.span-1{
+  grid-column: span 1;
+}
+
+.span-4{
+  grid-column: span 4;
+}
+
+.span-2{
+  grid-column: span 2;
+}
+
+
+ .usynlig{
+   opacity: 0;
+ }
+
+ h1{
+   text-align: center;
+ }
+
+.grunnstoff{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.grunnstoff:hover{
+  transform: scale(1.08);
+}
+
+.tall, .navn{
+  text-align: center;
+}
+
+.tall{
+  font-size: 24px;
+}
+
+.noble-gas{
+  background-color: #00e673;
+}
+
+.halogen{
+  background-color: #70dbdb;
+}
+
+.other-metals{
+  background-color: #c4ff4d;
+}
+
+.metalloids{
+  background-color: #ffff66;
+}
+
+.ptm{
+  background-color: #aa80ff;
+}
+
+.tm{
+  background-color: #ff9966;
+}
+
+.aem{
+  background-color: #6699ff;
+}
+.am{
+  background-color: #ff6666;
+}
+
+.rad-en{
+  background-color:#ccffff;
+}
+
+.rad-to{
+  background-color: #ccffe6;
+}
+
+.margin-box{
+  margin-top: 20px;
+}
